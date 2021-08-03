@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fadollah.vsga_tugas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/oke"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/oke"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VSGA_TUGAS">
+        <activity
+            android:name=".setting"
+            android:label="Setting"
+            android:exported="true" />
+        <activity
+            android:name=".home"
+            android:label="Home"
+            android:exported="true" />
+        <activity
+            android:name=".about"
+            android:label="About"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
